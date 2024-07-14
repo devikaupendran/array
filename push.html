@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>push in array</title>
+</head>
+<body>
+    <ul>
+        <li class="list-item">BMW</li>
+        <li class="list-item">Saab</li>
+        <li class="list-item">Benz</li>
+        <li class="list-item">Volvo</li>
+    </ul>
+    <script type="text/javascript" language="javascript">
+
+        
+        // we want to access all the list item mentioned in <ul> tag 
+        let allListItems = document.querySelectorAll(".list-item");
+        let carArray = [];
+
+        allListItems.forEach(function(listItem) //iterate through all list item
+        {
+            let newListItem = listItem.innerText; //setting the text of listItem into newListItem
+            console.log(newListItem);
+            //to set these list into an array
+            carArray
+        })
+
+    </script>
+</body>
+</html>
